@@ -6,7 +6,7 @@
 
 <br>
 
-<p align="center"><img src="./readme/screenshots/Desktop.png" alt="Imagem Versão Desktop" width="90%"></p>
+<p align="center"><img src="./readme/screenshots/desktop.png" alt="Imagem Versão Desktop" width="90%"></p>
 
 <br>
 
@@ -74,11 +74,11 @@ A ideia deste desafio é desenvolver uma tela de um E-commerce como parte do pro
 <br>
 
 #### 01. Desktop:
-<p align="center"><img src="./readme/screenshots/Desktop.png" alt="Imagem Versão Desktop" width="90%"></p>
+<p align="center"><img src="./readme/screenshots/desktop.png" alt="Imagem Versão Desktop" width="90%"></p>
 <p align="center"><small>Imagem da versão Desktop do site.</small></p>
 
 #### 02. Mobile:
-<p align="center"><img src="./readme/screenshots/Mobile.png" alt="Imagem Versão Desktop" height="500px"></p>
+<p align="center"><img src="./readme/screenshots/mobile.png" alt="Imagem Versão Desktop" height="500px"></p>
 <p align="center"><small>Imagem da versão mobile do site.</small></p>
 
 <br>
