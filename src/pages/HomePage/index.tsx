@@ -1,10 +1,12 @@
+import { ShoppingCartProvider } from "../../context/shopping-cart-context";
+import { useProductData } from "../../hooks/useProductsData";
+import * as S from "./styled";
+
+import { Header } from "../../components/header";
+import { WarningModal } from "../../components/modals";
 import { SkeletonProductCard } from "../../components/cards/skeleton-product-card";
 import { ProductCard } from "../../components/cards/product-card";
-import { useProductData } from "../../hooks/useProductsData";
 import { Footer } from "../../components/footer";
-import { Header } from "../../components/header";
-import * as S from "./styled";
-import { ShoppingCartProvider } from "../../context/shopping-cart-context";
 
 export function HomePage() {
     const { data, isLoading } = useProductData();
@@ -12,6 +14,7 @@ export function HomePage() {
       <ShoppingCartProvider>
         <S.PageContainer>
           <Header />
+          <WarningModal />
           <S.Main>
             <S.ProductsGrid>
               { 
