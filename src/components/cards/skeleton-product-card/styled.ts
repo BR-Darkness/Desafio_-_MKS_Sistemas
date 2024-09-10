@@ -12,6 +12,7 @@ export const CardSkeleton = styled.div`
     position: relative;
     overflow: hidden;
     max-width: 270px;
+    min-width: 260px;
 
     display: flex;
     flex-direction: column;
@@ -75,7 +76,7 @@ export const CardSkeletonProductDescription = styled.p`
     animation: ${SkeletonLoading} 1s linear infinite alternate;
     border-radius: 2px;
     user-select: none;
-    min-width: 268px;
+    margin: 0 .125rem;
     height: 36px;
 `;
 
